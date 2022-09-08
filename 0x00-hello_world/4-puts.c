@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
+/**
+ * main - Entry point for the main function
  *
- * using puts to display array of characters
+ * Description: Using puts to display array of characters
  *
  * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
