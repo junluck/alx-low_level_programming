@@ -1,8 +1,11 @@
 #include <stdio.h> 
+
 /*
- * Storing string in characters array
+ * main - Entry point
  *
  * using puts to display array of characters
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
