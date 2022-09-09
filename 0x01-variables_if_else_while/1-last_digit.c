@@ -1,8 +1,16 @@
-#include <stdlib.h>
+i#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+/**
+ *
+ **main-Entry point
+ *
+ ** Description:assigning the variable n with the value of a random number and then assigning a new variable called number with the last digit of n.
+ Then using a if and else statment to outpout different messages for what the result of the last digit will be
+ *
+ **Return: Always 0 (Success)
+ *
+ **/
 
 int main(void)
 
