@@ -1,12 +1,12 @@
 #include <stdio.h>
 /*
- * main- prints the size of various data types
+ * main - prints the size of various data types
  *
- * Description:storing wach size in a variable and then printing it out
+ * description : storing wach size in a variable and then printing it out
  *
- * Return: Always 0 (Success)
+ * Return : Always 0 (Success)
  */
-int main(void)
+int maini(void)
 {
 
 	int charSize = sizeof(char);
@@ -14,6 +14,7 @@ int main(void)
 	int longSize = sizeof(long int);
 	int longLongSize = sizeof(long long int);
 	int floatSize = sizeof(float);
+
 	printf("Size of a char: %i byte(s)\n", charSize);
 	printf("Size of an int: %i byte(s)\n", intSize);
 	printf("Size of a long int: %i byte(s)\n", longSize);
