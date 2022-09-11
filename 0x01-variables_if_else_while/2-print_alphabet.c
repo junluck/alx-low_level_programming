@@ -10,12 +10,14 @@
 int main(void)
 {	
 	int alph;
+	int space=10;
 	for (alph='a';alph<='z';alph++)
 	{
 		
 		putchar(alph);
 	
 	}
+	putchar(space);
 	return (0);
 	
 }
