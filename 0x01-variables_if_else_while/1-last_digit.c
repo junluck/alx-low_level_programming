@@ -1,14 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*
- * main - Entry point for the main function
+/**
+ *main-Entry point for the main function
  *
- * Description: Storing random number in variable and getting remainder
+ *Description:getting the last number of the number and checking it
  *
- * Return: Always 0 (Success)
- *
+ *Return:Always 0 (Success)
  */
 
 int main(void)
@@ -23,7 +21,9 @@ int main(void)
 		number = n % (n / 10);
 		if (number < 6 && number != 0)
 		{
-			printf("Last digit of %i is %i and is less than 6 and not 0\n", n, number);		}
+			printf("Last digit of %i is %i ", n, number);
+			printf("and is less than 6 and not 0\n");
+		}
 		else if (number == 0)
 		{
 			printf("Last digit of %i is %i and is 0\n", n, number);
