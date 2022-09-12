@@ -13,7 +13,7 @@ int main(void)
 	int alp;
 	int space = 10;
 
-	for (alp = 'a' ; alp < 'z' ; alp++)
+	for (alp = 'a' ; alp <= 'z' ; alp++)
 	{
 		if (alp == 'e' || alp == 'q')
 		{
