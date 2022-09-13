@@ -14,10 +14,12 @@ int _islower(int c)
 	{
 		if(c == n)
 		{
-			return printf("1");
+			printf("1");
 		}
 
-		else {return printf("0");};
+		else {printf("0");};
 
 	}
+
+	return (0);
 }
