@@ -3,7 +3,9 @@
 /**
  *_islower-Entry point for the _islower function
  *
- *Description:using a function to check if itsa lowercase alphabet
+ *@c:parameter which is an interger
+ *
+ *Description:using a function to check if its a lowercase alphabet
  *
  *Return:Always 0 (Success)
  */
