@@ -19,6 +19,7 @@ int main(void)
 	int a = 'a';
 	int r = 'r';
 	int lineBr = 10;
+
 	putchar(under);
 	putchar(p);
 	putchar(u);
