@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *_islower-Entry point for the _islower function
+ *_isalpha-Entry point for the _isalpha function
  *
  *@c:parameter which is an interger
  *
@@ -9,7 +9,7 @@
  *
  *Return:Always 0 (Success)
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	int n;
 	int m;
