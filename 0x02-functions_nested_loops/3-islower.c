@@ -17,6 +17,6 @@ int _islower(int c)
 			printf("1");
 		}
 
-		else {printf("0");}
+		else {printf("0");};
 	}
 }
