@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 {
 	int n;
 	int ten;
-	int lineBr;
+	int lineBr = 10;
 
 	for (ten = 0 ; ten < 10 ; ten++)
 	{
