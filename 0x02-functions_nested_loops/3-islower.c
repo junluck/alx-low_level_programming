@@ -14,7 +14,7 @@ int _islower(int c)
 	{
 		if(c == n)
 		{
-			printf("1\n");
+			return (1);
 		}
 
 		
