@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *main-Entry point for the main function
+ *print_alphabet-Entry point for the print_alphabet function
  *
  *Description:using a function to print out alphabet
  *
@@ -10,10 +10,14 @@
 void print_alphabet(void)
 {
 	int n;
-	for(n = 'a' ; n <= 'z' ; n++)
+	int lineBr = 10;
+
+	for (n = 'a' ; n <= 'z' ; n++)
 	{
 		putchar(n);
 	}
+
+	putchar(lineBr);
 
 }
 
