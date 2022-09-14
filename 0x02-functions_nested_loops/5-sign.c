@@ -10,7 +10,7 @@
  */
 int print_sign(int n)
 {
-	int noting = 48
+	int noting = 48;
 	if (n > 0)
 	{
 		return (+1);	 
