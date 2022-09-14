@@ -12,15 +12,12 @@ void times_table(void);
 
 	int n;
 	int m;
-	int o;
 	int linebr = 10;
 	for (n = 0 ; n <= 9 ; n++)
 	{
 		for (m = 0 ; m <= 9 ; m++)
 		{
 			int ans = n + ans;
-
-			return(ans);
 		}
 		putchar(linebr);
 
