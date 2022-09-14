@@ -6,6 +6,8 @@
  *@n:parameter which is an interger
  *
  *Description:using a function to get abosulte value
+ *
+ *Return:Always 0 (Success)
  */
 int _abs(int n)
 {
