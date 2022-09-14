@@ -14,7 +14,7 @@ int _abs(int)
 	if (n >= 0)
 	{
 		int ab = int * 1;
-		return (qb);
+		return (ab);
 		 
 	}
 	else if (n < 0)
