@@ -10,13 +10,14 @@
  */
 int print_sign(int n)
 {
+	int noting = 48
 	if (n > 0)
 	{
 		return (+1);	 
 	}
 	else if (n == 0)
 	{
-		return (0);
+		putchar(noting);
 		
 	}
 	else if (n < 0)
