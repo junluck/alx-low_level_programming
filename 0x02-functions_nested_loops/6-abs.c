@@ -10,14 +10,14 @@
  */
 int _abs(int)
 {
-
-	if (int >= 0)
+	int n;
+	if (n >= 0)
 	{
 		int ab = int * 1;
 		return (qb);
 		 
 	}
-	else if (int < 0)
+	else if (n < 0)
 	{	
 		int abs = int * -1;
 		return (abs);
