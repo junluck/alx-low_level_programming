@@ -13,13 +13,13 @@ int _abs(int)
 	int n;
 	if (n >= 0)
 	{
-		int ab = int * 1;
+		int ab = n * 1;
 		return (ab);
 		 
 	}
 	else if (n < 0)
 	{	
-		int abs = int * -1;
+		int abs = n * -1;
 		return (abs);
 		
 	};
