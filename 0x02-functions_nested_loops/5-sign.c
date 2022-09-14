@@ -17,8 +17,8 @@ int print_sign(int n)
 	}
 	else if (n == 0)
 	{	
-		int r [2] = {0,0};
-		return (r);
+		int nort = printf("0")
+		return (0,nort);
 		
 	}
 	else if (n < 0)
