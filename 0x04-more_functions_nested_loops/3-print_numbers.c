@@ -11,10 +11,12 @@
 void print_numbers(void)
 {
 	int count;
+	int lineBr = 10;
 
 	for (count = 48 ; count <= 57 ; count++)
 	{
-		_putchar(count);
+		putchar(count);
 
 	}
+	putchar(lineBr);
 }
