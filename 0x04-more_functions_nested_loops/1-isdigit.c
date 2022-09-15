@@ -19,14 +19,14 @@ int _isdigit(int c)
 	{
 		if (c == i)
 		{
-	   		total = 1;
+			total = 1;
 		}
 
 		else if (c != i)
 		{
 			total = 0;
 		};
-	
+
 	}
 	if (total == 1)
 	{
