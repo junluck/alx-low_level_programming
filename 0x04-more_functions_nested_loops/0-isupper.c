@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  *_isupper-Entry point for the _isalpha functio
@@ -16,7 +16,7 @@ int _isupper(int c)
 
 	for(i = 65 ; i <= 90 ; i++ )
 	{
-		if (c = i)
+		if (c == i)
 		{
 			return (1);		
 		}
