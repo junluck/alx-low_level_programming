@@ -12,9 +12,9 @@
  */
 int _isdigit(int c)
 {
-	
+	int i;
 
-	for (int i = 48 ; i <= 57 ; i++)
+	for (i = 48 ; i <= 57 ; i++)
 	{
 		if (c == i)
 		{
