@@ -13,18 +13,29 @@
 int _isdigit(int c)
 {
 	int i;
+	int total;
 
 	for (i = 48 ; i <= 57 ; i++)
 	{
 		if (c == i)
 		{
-			return (1);
+	   		total = 1;
 		}
 
-		else if(c != i)
+		else if (c != i)
 		{
-			return (0);
+			total = 0;
 		};
+	
 	}
+	if (total == 1)
+	{
+		return (1);
+	}
+	else if (total == 0)
+	{
+		return (0);
+	};
+
 	return (0);
 }
