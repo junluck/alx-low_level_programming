@@ -5,7 +5,7 @@
  *mul-Entry point for the _isdigit function
  *
  *@a:a parameter for an int
- *@b: a parameter for an int 
+ *@b:a parameter for an int
  *
  *Description:mutiplying two integers
  *
