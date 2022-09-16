@@ -26,7 +26,7 @@ void more_numbers(void)
 			putchar((countThree /10)+'0');
 			putchar((countThree%10)+'0');
 		}
-		putchar(lineBr);
+		
 	}
 	
 }
