@@ -13,14 +13,20 @@ void more_numbers(void)
 	int count;
 	int lineBr = 10;
 	int countTwo;
+	int countThree;
 
 	for (count = 0 ; count < 14 ; count++)
 	{
 		for (countTwo = 48 ; countTwo < 57 ; countTwo++)
 		{
-			_putchar(countTwo);
+			putchar(countTwo);
 		}
-
+		for (countThree = 10 ; countThree <= 14 ; countThree++)
+		{
+			putchar((countThree /10)+'0');
+			putchar((countThree%10)+'0');
+		}
+		putchar(lineBr);
 	}
-	putchar(lineBr);
+	
 }
