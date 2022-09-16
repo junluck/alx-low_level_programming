@@ -16,10 +16,18 @@ void print_line(int n)
 	int under = 95;
 	int lineBr = 10;
 
-	for (i = 0 ; i <= n ; i++)
+	if (n > 0)
 	{
-		putchar(under);
+		for (i = 0 ; i <= n ; i++)
+		{
+			putchar(under);
+		}
 	}
+	else if (n <= 0)
+	{
+		putchar(lineBr);
+	};
+
 	putchar(lineBr);
 
 }
