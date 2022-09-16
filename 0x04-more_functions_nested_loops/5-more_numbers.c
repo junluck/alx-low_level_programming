@@ -18,7 +18,7 @@ void more_numbers(void)
 	{
 		for (countTwo = 48 ; countTwo < 57 ; countTwo++)
 		{
-			_putchar();
+			_putchar(countTwo);
 		}
 
 	}
