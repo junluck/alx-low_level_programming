@@ -13,7 +13,6 @@ void more_numbers(void)
 	int count;
 	int countTwo;
 	int countThree;
-	int lineBr = 10;
 
 	for (count = 0 ; count < 14 ; count++)
 	{
