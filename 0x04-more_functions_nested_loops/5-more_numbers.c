@@ -11,7 +11,6 @@
 void more_numbers(void)
 {
 	int count;
-	int lineBr = 10;
 	int countTwo;
 	int countThree;
 
