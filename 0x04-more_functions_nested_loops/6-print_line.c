@@ -28,6 +28,4 @@ void print_line(int n)
 		putchar(lineBr);
 	};
 
-	putchar(lineBr);
-
 }
