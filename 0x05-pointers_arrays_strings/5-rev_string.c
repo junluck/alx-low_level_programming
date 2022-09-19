@@ -25,8 +25,8 @@ void rev_string(char *s)
 	}
 
 	for (k = sum ; k >= 0 ;)
-	{	
+	{
 		s[j++]=s[k--];
 	}
-	putchar(lineBr);
+
 }
