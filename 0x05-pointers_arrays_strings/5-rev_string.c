@@ -12,7 +12,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	int sum = 0;
+	int sum = -2;
 	int k;
 	int j = 0;
 	char c = s[0];
@@ -23,9 +23,9 @@ void rev_string(char *s)
 		c = s[i++];
 	}
 
-	for (k = sum ; k >= 0 ; k--)
+	for (k = sum ; k >= 0 ; k--,j++)
 	{
-		s[j++] = s[k];
+		s[j] = s[k];
 	}
 
 }
