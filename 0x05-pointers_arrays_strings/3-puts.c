@@ -12,7 +12,6 @@
 void _puts(char *str)
 {
 	int sum = -1;
-	int i = 0;
 	int k;
 	char c = str[0];
 	int lineBr = 10;
