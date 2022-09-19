@@ -11,7 +11,7 @@
  */
 int _strlen(char *s)
 {
-	int sum = 0;
+	int sum = -1;
 	int i = 0;
 	char c = s[0];
 
