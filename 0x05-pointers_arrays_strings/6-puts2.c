@@ -22,10 +22,12 @@ void puts2(char *str)
 		c = str[i++];
 	}
 
-	for (k = 0 ; k <= sum ; k+=2)
+	for (k = 0 ; k <= sum ; k += 2)
 	{
 		char every = str[k];
-		printf("%c" , every);
+
+		printf("%c", every);
 	}
+	printf("\n");
 
 }
