@@ -12,7 +12,7 @@
 void _puts(char *str)
 {
 	int sum = 0;
-	int i = 1;
+	int i = 0;
 	char c = str[0];
 
 	while (c != '\0')
@@ -21,6 +21,6 @@ void _puts(char *str)
 		c = str[i++];
 		printf("%c",c);
 	};
-	printf("\n");
+	printf("\0");
 
 }
