@@ -16,7 +16,6 @@ void rev_string(char *s)
 	int k;
 	int j = 0;
 	char c = s[0];
-	int lineBr = 10;
 
 	while (c != '\0')
 	{
