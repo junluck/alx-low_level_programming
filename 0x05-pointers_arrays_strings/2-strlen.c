@@ -15,10 +15,16 @@ int _strlen(char *s)
 	int i = 0;
 	char c = s[0];
 
-	while (c != '\0')
+	if (c == '\0')
 	{
-		sum++;
-		c = s[i++];
+		sum = 0;
 	}
+	else if (c != '\0')
+	{
+		while (c != '\0')
+		{
+			sum++;
+			c = s[i++];
+		};
 	return (sum);
 }
