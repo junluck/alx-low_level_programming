@@ -12,7 +12,7 @@
 void print_rev(char *s)
 {
 	int i = 0;
-	int sum = 0;
+	int sum = -2;
 	int k;
 	char c = s[0];
 	int lineBr = 10;
