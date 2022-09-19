@@ -11,21 +11,20 @@
  */
 void _puts(char *str)
 {
-	int sum = 0;
+	int sum = -1;
 	int i = 0;
+	int k;
 	char c = str[0];
 	int lineBr = 10;
 
 	while (c != '\0')
 	{
-		if (c != '\0')
-		{
-			sum++;
-			c = str[i++];
-			putchar(c);
-
-		}
+		sum++;
+	}
+	for(k = 0 ; k <= sum ; k++)
+	{
+		c = str[k];
+		putchar(c);
 	}
 	putchar(lineBr);
-
 }
