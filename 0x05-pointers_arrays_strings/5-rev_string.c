@@ -12,7 +12,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	int sum = -2;
+	int sum = 0;
 	int k;
 	int j = 0;
 	char c = s[0];
