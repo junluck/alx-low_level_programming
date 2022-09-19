@@ -22,7 +22,7 @@ void print_rev(char *s)
 		sum++;
 		c = s[i++];
 	}
-	for (k = sum ; k >= 0 ;)
+	for (k = sum ; k > 0 ;)
 	{
 		c = s[k--];
 		putchar(c);
