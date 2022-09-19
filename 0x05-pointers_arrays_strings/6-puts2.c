@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *rev_string-Entry point for the rev_string function
+ *puts2-Entry point for the puts2 function
  *
- *@s:print out string
+ *@str:print out ever second character
  *
  *Description:print out the whole string in reverse
  *
  *Return:Always 0 (Success)
  */
-void rev_string(char *s)
+void puts2(char *str)
 {
 	int i = 0;
 	int sum = -2;
@@ -20,12 +20,13 @@ void rev_string(char *s)
 	while (c != '\0')
 	{
 		sum++;
-		c = s[i++];
+		c = str[i++];
 	}
 
-	for (k = sum ; k >= 0 ;)
+	for (k = 0 ; k <= sum)
 	{
-		s[j++] = s[k--];
+		char every = str[k + 2];
+		printf("%c" , every);
 	}
 
 }
