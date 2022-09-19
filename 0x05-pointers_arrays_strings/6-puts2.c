@@ -14,8 +14,7 @@ void puts2(char *str)
 	int i = 0;
 	int sum = -2;
 	int k;
-	int j = 0;
-	char c = s[0];
+	char c = str[0];
 
 	while (c != '\0')
 	{
@@ -23,7 +22,7 @@ void puts2(char *str)
 		c = str[i++];
 	}
 
-	for (k = 0 ; k <= sum)
+	for (k = 0 ; k <= sum ;)
 	{
 		char every = str[k + 2];
 		printf("%c" , every);
