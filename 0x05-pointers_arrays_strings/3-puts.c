@@ -15,6 +15,7 @@ void _puts(char *str)
 	int i = 0;
 	char c = str[0];
 	int lineBr = 10;
+
 	while (c != '\0')
 	{
 		if (c != '\0')
@@ -22,7 +23,7 @@ void _puts(char *str)
 			sum++;
 			c = str[i++];
 			putchar(c);
-	
+
 		}
 	}
 	putchar(lineBr);
