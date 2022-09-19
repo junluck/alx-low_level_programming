@@ -13,12 +13,12 @@ void _puts(char *str)
 {
 	int sum = -1;
 	int i = 0;
-	char c = s[0];
+	char c = str[0];
 
 	while (c != '\0')
 	{
 		sum++;
-		c = s[i++];
-		printf("%c",c)
+		c = str[i++];
+		printf("%c",c);
 	};
 }
