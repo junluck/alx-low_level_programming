@@ -11,6 +11,7 @@
  */
 void _puts(char *str)
 {
+	int i = 0;
 	int sum = -1;
 	int k;
 	char c = str[0];
