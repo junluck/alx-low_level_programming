@@ -19,6 +19,7 @@ void _puts(char *str)
 	while (c != '\0')
 	{
 		sum++;
+		c = str[i++]; 
 	}
 	for(k = 0 ; k <= sum ; k++)
 	{
