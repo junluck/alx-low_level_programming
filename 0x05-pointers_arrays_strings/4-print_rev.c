@@ -12,17 +12,17 @@
 void print_rev(char *s)
 {
 	int i = 0;
-	int sum = -1;
+	int sum = 0;
 	int k;
 	char c = s[0];
 	int lineBr = 10;
 
-	while (c != '\0')
+	while (c != '\0'0
 	{
 		sum++;
 		c = s[i++];
 	}
-	for (k = sum ; k > 0 ;)
+	for (k = sum ; k >= 0 ;)
 	{
 		c = s[k--];
 		putchar(c);
