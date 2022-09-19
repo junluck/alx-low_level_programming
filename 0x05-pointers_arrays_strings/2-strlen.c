@@ -26,5 +26,6 @@ int _strlen(char *s)
 			sum++;
 			c = s[i++];
 		};
+	}
 	return (sum);
 }
