@@ -14,6 +14,7 @@ void rev_string(char *s)
 	int i = 0;
 	int sum = -2;
 	int k;
+	int j = 0;
 	char c = s[0];
 	int lineBr = 10;
 
@@ -22,15 +23,10 @@ void rev_string(char *s)
 		sum++;
 		c = s[i++];
 	}
-	for (k = 0 ; k < sum ;)
-	{
-		c = s[k++];
-		putchar(c);
-	}
+
 	for (k = sum ; k >= 0 ;)
-	{
-		c = s[k--];
-		putchar(c);
+	{	
+		s[j++]=s[k--];
 	}
 	putchar(lineBr);
 }
