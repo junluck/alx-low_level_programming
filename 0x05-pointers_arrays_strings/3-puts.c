@@ -14,16 +14,15 @@ void _puts(char *str)
 	int sum = 0;
 	int i = -1;
 	char c = str[0];
-	
-	while (c != '\0')
-	{	if (c == '\0')
-		{
-			break;
-		}
-		sum++;
-		c = str[i++];
-	
-	}
 
+	while (c != '\0')
+	{
+		if (c != '\0')
+		{
+			sum++;
+			c = str[i++];
+	
+		}	
+	}
 
 }
