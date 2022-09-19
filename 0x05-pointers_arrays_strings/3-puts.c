@@ -21,7 +21,7 @@ void _puts(char *str)
 		{
 			sum++;
 			c = str[i++];
-			printf("%c",c);
+			putchar(c);
 	
 		}	
 	}
