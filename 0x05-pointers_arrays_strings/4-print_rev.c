@@ -17,7 +17,7 @@ void print_rev(char *s)
 	char c = s[0];
 	int lineBr = 10;
 
-	while (c != '\0'0
+	while (c != '\0')
 	{
 		sum++;
 		c = s[i++];
