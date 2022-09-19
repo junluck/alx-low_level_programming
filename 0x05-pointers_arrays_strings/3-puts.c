@@ -20,9 +20,9 @@ void _puts(char *str)
 	while (c != '\0')
 	{
 		sum++;
-		c = str[i++]; 
+		c = str[i++];
 	}
-	for(k = 0 ; k < sum ; k++)
+	for (k = 0 ; k < sum ; k++)
 	{
 		c = str[k];
 		putchar(c);
