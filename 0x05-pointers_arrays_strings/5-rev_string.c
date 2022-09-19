@@ -23,9 +23,9 @@ void rev_string(char *s)
 		c = s[i++];
 	}
 
-	for (k = sum ; k >= 0 ;)
+	for (k = sum ; k >= 0 ; k--)
 	{
-		s[j++] = s[k--];
+		s[j++] = s[k];
 	}
 
 }
