@@ -35,10 +35,10 @@ void puts_half(char *str)
 	else if (sum % 2 == 0)
 	{
 		half = sum / 2;
-		for (j = half + 1 ; j <= sum ; j++) 
+		for (j = half + 1 ; j <= sum ; j++)
 		{
 			putchar(str[j]);
-		}	
+		}
 	};
 	putchar(lineBr);
 }
