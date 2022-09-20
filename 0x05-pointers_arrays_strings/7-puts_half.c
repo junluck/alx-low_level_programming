@@ -16,6 +16,7 @@ void puts_half(char *str)
 	int sum = -2;
 	int half;
 	char c = str[0];
+	int lineBr = 10;
 
 	while (c != '\0')
 	{
@@ -33,10 +34,11 @@ void puts_half(char *str)
 	}
 	else if (sum % 2 == 0)
 	{
-		half = sum / 2;
+		half = (sum - 1) / 2;
 		for (j = half ; j <= sum ; j++) 
 		{
 			putchar(str[j]);
 		}	
-	}
+	};
+	putchar(lineBr);
 }
