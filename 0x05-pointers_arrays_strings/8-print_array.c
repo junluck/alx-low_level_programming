@@ -7,7 +7,7 @@
  *
  *@n:the number of elements in array
  *
- *Description:print out the who;e array 
+ *Description:print out the whole array
  *
  *Return:Always 0 (Success)
  */
@@ -17,14 +17,14 @@ void print_array(int *a, int n)
 	int lineBr = 10;
 	int nul = 0;
 
-	if(a[0] != '\0')
+	if (a[0] != '\0')
 	{
 		for (i = 0 ; i < n - 1 ; i++)
 		{
-			printf("%i, ",a[i]);
+			printf("%i, ", a[i]);
 		}
-		
-		printf("%i",a[n-1]);
+
+		printf("%i", a[n - 1]);
 		putchar(lineBr);
 	}
 	else if (a[0] == '\0')
