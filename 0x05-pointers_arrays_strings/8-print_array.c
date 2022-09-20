@@ -14,8 +14,6 @@
 void print_array(int *a, int n)
 {
 	int i;
-	int j;
-	int sum = -2;
 	int lineBr = 10;
 
 	for (i = 0 ; i < n ; i++)
