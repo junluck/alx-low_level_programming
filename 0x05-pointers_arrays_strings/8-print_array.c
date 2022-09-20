@@ -15,6 +15,7 @@ void print_array(int *a, int n)
 {
 	int i;
 	int lineBr = 10;
+	int nul = 0;
 
 	if(a[0] != '\0')
 	{
@@ -22,9 +23,13 @@ void print_array(int *a, int n)
 		{
 			printf("%i, ",a[i]);
 		}
-	
+		
 		printf("%i",a[n-1]);
-	};
-	putchar(lineBr);
+		putchar(lineBr);
+	}
+	else if (a[0] == '\0')
+	{
+		putchar(nul);
+	}
 
 }
