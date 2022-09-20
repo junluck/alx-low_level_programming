@@ -26,10 +26,10 @@ void print_array(int *a, int n)
 	
 		printf("%i",a[n-1]);
 	}
-	else if (a[0] == '\0')
+	else
 	{
 		printf("%c",nul);
-	};
+	}
 	putchar(lineBr);
 
 }
