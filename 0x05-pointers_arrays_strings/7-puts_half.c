@@ -15,6 +15,7 @@ void puts_half(char *str)
 	int j;
 	int sum = -2;
 	int half;
+	char c = str[0];
 
 	while (c != '\0')
 	{
