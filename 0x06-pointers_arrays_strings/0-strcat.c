@@ -23,8 +23,7 @@ char *_strcat(char *dest, char *src)
 	char c = dest[0];
 	char d = src[0];
 	int total = sum + sumTwo;
-	char *conCat = NULL;
-	
+
 	while (c != '\0')
 	{
 		sum++;
@@ -37,11 +36,11 @@ char *_strcat(char *dest, char *src)
 	}
 	for (k = 0 ; k < sum ; k++)
 	{
-		conCat[k] = dest[k];
+		dest[k] = dest[k];
 	}
 	for (l = sum + 1 ; l < total ; l++)
 	{
-		conCat[l] = src[m++];
+		dest[l] = src[m++];
 	}
-	return (conCat);
+	return (dest);
 }
