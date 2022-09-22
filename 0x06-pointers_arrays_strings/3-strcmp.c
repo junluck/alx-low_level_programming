@@ -31,17 +31,18 @@ int _strcmp(char *s1, char *s2)
 		sumTwo++;
 		d = s2[j++];
 	}
-	for (k = 0 ; k < sum ; k++)
+	for (k = 0 ; k <= sum ; k++)
 	{
 		if (s1[k] == s2[k])
 		{
-			return (0);	
+			return (0);
 		}
-		else if (s1[k] > s2[k])
+
+		else if (s1[0] > s2[0])
 		{
 			return (15);
 		}
-		else if (s1[k] < s2[k])
+		else if (s1[0] < s2[0])
 		{
 			return (-15);
 		}
