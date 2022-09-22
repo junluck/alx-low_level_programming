@@ -33,7 +33,7 @@ char *_strncpy(char *dest, char *src, int n)
 		sumTwo++;
 		d = src[j++];
 	}
-	if (n > sumTwo)
+	if (n >= sumTwo)
 	{
 		n = sumTwo;
 	}
