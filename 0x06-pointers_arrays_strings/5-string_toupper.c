@@ -26,7 +26,7 @@ char *string_toupper(char *a)
 	{
 		if (a[k] >= 97 && a[k] <= 122)
 		{
-			a[k] + 42;
+			a[k] = a[k] - 32;
 		}
 	}
 	return (a);
