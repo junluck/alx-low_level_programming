@@ -12,7 +12,6 @@
 char *cap_string(char *a)
 {
 	int i = 0;
-	int k;
 	char c = a[0];
 
 	while (c != '\0')
