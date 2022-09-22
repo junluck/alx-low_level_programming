@@ -29,4 +29,5 @@ char *string_toupper(char *a)
 			a[k] + 42;
 		}
 	}
+	return (a);
 }
