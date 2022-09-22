@@ -18,32 +18,32 @@ int _strcmp(char *s1, char *s2)
 	int k;
 	int sum = -1;
 	int sumTwo = 0;
-	char c = dest[0];
-	char d = src[0];
+	char c = s1[0];
+	char d = s2[0];
 
 	while (c != '\0')
 	{
 		sum++;
-		c = dest[i++];
+		c = s1[i++];
 	}
 	while (d != '\0')
 	{
 		sumTwo++;
-		d = src[j++];
+		d = s2[j++];
 	}
-	for (k = 0 ; k = sum ; k++)
+	for (k = 0 ; k < sum ; k++)
 	{
-		if (dest[k] == src[k])
+		if (s1[k] == s2[k])
 		{
 			return (0);	
 		}
-		else if (dest[k] > src[k])
+		else if (s1[k] > s2[k])
 		{
 			return (15);
 		}
-		else if (dest[k] < src[k])
+		else if (s1[k] < s2[k])
 		{
-			return (-15)
+			return (-15);
 		}
 	}
 	return (0);
