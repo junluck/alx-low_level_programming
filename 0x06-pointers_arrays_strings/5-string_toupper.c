@@ -3,7 +3,7 @@
 /**
  *string_toupper-Entry point for the reverse_array function
  *
- *@*:the pointer that must be uppercase
+ *@a:the pointer that must be uppercase
  *
  *Description:Convert string to uppercase
  *
