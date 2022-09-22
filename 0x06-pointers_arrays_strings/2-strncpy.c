@@ -37,7 +37,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		n = sumTwo;
 	}
-	for (k = 0 ; k < n ; k++)
+	for (k = 0 ; k <= n ; k++)
 	{
 		dest[k] = src[k];
 	}
