@@ -16,7 +16,7 @@ char *_strcat(char *dest, char *src)
 	int i = 0;
 	int j = 0;
 	int k;
-	int sum = -2;
+	int sum = -1;
 	int sumTwo = 0;
 	char c = dest[0];
 	char d = src[0];
