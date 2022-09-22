@@ -16,13 +16,10 @@ char *_strcat(char *dest, char *src)
 	int i = 0;
 	int j = 0;
 	int k;
-	int l;
-	int m = 0;
 	int sum = -2;
-	int sumTwo = -1;
+	int sumTwo = 0;
 	char c = dest[0];
 	char d = src[0];
-	int total = sum + sumTwo;
 
 	while (c != '\0')
 	{
@@ -34,13 +31,10 @@ char *_strcat(char *dest, char *src)
 		sumTwo++;
 		d = src[j++];
 	}
-	for (k = 0 ; k < sum ; k++)
+	for (k = 0 ; k < sumTwo ; k++)
 	{
-		dest[k] = dest[k];
+		dest[sum + k] = src[k];
 	}
-	for (l = sum + 1 ; l < total ; l++)
-	{
-		dest[l] = src[m++];
-	}
+
 	return (dest);
 }
