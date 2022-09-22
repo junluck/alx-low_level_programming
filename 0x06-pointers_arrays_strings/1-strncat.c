@@ -33,6 +33,10 @@ char *_strncat(char *dest, char *src, int n)
 		sumTwo++;
 		d = src[j++];
 	}
+	if (n > sumTwo)
+	{
+		n = sumTwo;
+	}
 	for (k = 0 ; k < n ; k++)
 	{
 		dest[sum + k] = src[k];
