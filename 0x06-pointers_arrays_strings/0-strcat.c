@@ -17,13 +17,13 @@ char *_strcat(char *dest, char *src)
 	int j = 0;
 	int k;
 	int l;
-	int m;
+	int m = 0;
 	int sum = -2;
 	int sumTwo = -1;
 	char c = dest[0];
 	char d = src[0];
 	int total = sum + sumTwo;
-	char *conCat;
+	char *conCat = NULL;
 	
 	while (c != '\0')
 	{
