@@ -3,7 +3,7 @@
 /**
  **_memset-Entry point for the *_memset function
  *
- *@*s:pointer to chars
+ *@s:pointer to chars
  *
  *@b:chars
  *
@@ -14,10 +14,11 @@
  *Return:Always 0 (Success)
  */
 char *_memset(char *s, char b, unsigned int n)
-{	
+{
 	int i;
 	int total = sizeof(char) * n;
-	for (i = 0 ; i <= total ; i++)
+
+	for (i = 0 ; i < total ; i++)
 	{
 		s[i] = b;
 	}
