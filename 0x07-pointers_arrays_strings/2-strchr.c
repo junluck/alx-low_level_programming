@@ -14,9 +14,10 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-
 	int total = sizeof(s);
+
 	char *ptr1;
+
 	ptr1 = NULL;
 
 	for (i = 0 ; i <= total ; i++)
