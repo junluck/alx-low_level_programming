@@ -14,17 +14,17 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	int num;
+
 	int total = sizeof(s);
 	char *ptr1;
+	ptr1 = NULL;
 
-	for (i = 0 ; i < total ; i++)
+	for (i = 0 ; i <= total ; i++)
 	{
 		if (s[i] == c)
 		{
-			num = i - 1;
+			ptr1 = &s[i];
 		}
 	}
-	ptr1 = &s[num];
 	return (ptr1);
 }
