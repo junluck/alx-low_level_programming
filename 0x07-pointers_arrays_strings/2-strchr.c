@@ -20,11 +20,13 @@ char *_strchr(char *s, char c)
 
 	ptr1 = NULL;
 
-	for (i = 0 ; i <= total ; i++)
+	for (i = 0 ; i <= total ; )
 	{
+		i++;
+
 		if (s[i] == c)
 		{
-			ptr1 = &s[i];
+			ptr1 = &s[i - 1];
 		}
 	}
 	return (ptr1);
