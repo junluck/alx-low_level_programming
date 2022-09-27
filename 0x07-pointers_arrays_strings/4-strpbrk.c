@@ -16,6 +16,7 @@ char *_strpbrk(char *s, char *accept)
 	int i;
 	int total = sizeof(s);
 	char *ptr1;
+
 	ptr1 = NULL;
 
 	for (i = 0 ; i <= total ; i++)
