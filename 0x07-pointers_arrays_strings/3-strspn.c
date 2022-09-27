@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i;
 	int total = sizeof(s);
 
-	unsigned int counter = 0;
+	unsigned int counter;
 
 	for (i = 0 ; i <= total ; i++)
 	{
