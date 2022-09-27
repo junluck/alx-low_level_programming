@@ -22,7 +22,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			num = i;
+			num = i - 1;
 		}
 	}
 	ptr1 = &s[num];
