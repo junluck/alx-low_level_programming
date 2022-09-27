@@ -15,14 +15,12 @@ char *_strpbrk(char *s, char *accept)
 {
 	int i;
 	int total = sizeof(s);
-	char *ptr1 = NULL;
-
-	unsigned int counter = 0;
+	char *ptr1;
 
 	for (i = 0 ; i <= total ; i++)
 	{
 
-		if (&accept[i] == &s[i])
+		if (accept[i] == s[i])
 		{
 				ptr1 = &s[i];
 		}
