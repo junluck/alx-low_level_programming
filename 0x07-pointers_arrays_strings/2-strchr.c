@@ -25,6 +25,6 @@ char *_strchr(char *s, char c)
 			num = i;
 		}
 	}
-	ptr1 = &s[num - 1];
+	ptr1 = &s[num];
 	return (ptr1);
 }
