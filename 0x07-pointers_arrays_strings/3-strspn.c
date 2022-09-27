@@ -21,7 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 	for (i = 0 ; i <= total ; i++)
 	{
 
-		if (accept == &s[i])
+		if (&accept[i] == &s[i])
 		{
 			counter = counter + 1;
 		}
