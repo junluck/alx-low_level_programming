@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *_puts_recursion-Entry point for the _puts_recursion function
+ *_print_rev_recursion-Entry point for the _print_rev_recursion function
  *
- *@s-pointer to chars
+ *@s:pointer to chars
  *
- *Description:prints a string, followed by a new line.
+ *Description:prints a string in reverse using recursion
  *
  *Return: Always 0.
  */
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 
 	if (*s != '\0')
 	{
-		_puts_recursion(s + 1);
+		_print_rev_recursion(s + 1);
 		putchar(*s);
 	};
 	if (*s == '\0')
