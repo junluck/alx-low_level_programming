@@ -14,7 +14,7 @@ void _puts_recursion(char *s)
 	int size = sizeof(s);
 	int counter = 0;
 	
-	putchar(s[counter]);
+	putchar(&s[counter]);
 	counter++;
 		
 	if (counter < size)
