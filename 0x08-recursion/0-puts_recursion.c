@@ -20,5 +20,5 @@ void _puts_recursion(char *s)
 	if (counter < size)
 	{
 		_puts_recursion(s);
-	{
+	}
 }
