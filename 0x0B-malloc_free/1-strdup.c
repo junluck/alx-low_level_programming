@@ -13,7 +13,7 @@ char *_strdup(char *str)
 {
 	char *ar;
 	int i;
-	int sizer = sizeof(str);
+	int sizer = sizeof(*str);
 
 	if (str != NULL)
 	{
