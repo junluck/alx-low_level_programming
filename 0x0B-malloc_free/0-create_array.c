@@ -19,6 +19,10 @@ char *create_array(unsigned int size, char c)
 	if (size > 0)
 	{
 		ar = malloc(sizeof(c) * size);
+		if (ar == NULL)
+		{
+			printf("Array not allocated");
+		}
 		for (i = 0 ; i < size ; i++)
 		{
 			ar[i] = c;
@@ -29,6 +33,5 @@ char *create_array(unsigned int size, char c)
 		return (NULL);
 	}
 
-	free(ar);
 	return (ar);
 }
