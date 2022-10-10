@@ -1,6 +1,4 @@
 #include <stdio.h>
-#ifndef DOG
-#define DOG
 
 typedef struct dog {
 
@@ -8,6 +6,4 @@ typedef struct dog {
 	float age;
 	char * owner;
 
-}
-
-#endif
+};
