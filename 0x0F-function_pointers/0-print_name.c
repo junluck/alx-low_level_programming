@@ -3,7 +3,7 @@
 /**
  *print_name-Entry point for print_name function
  *
- *@name:pointer to name 
+ *@name:pointer to name
  *
  *@f:pointer to function
  *
@@ -13,10 +13,6 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-	
-	
 	(*f)(name);
-	
 
 }
-
