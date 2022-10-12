@@ -13,20 +13,10 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-
-	f = &print_name;
-	int i;
-	int sum = 0;
-	int j = 0;
-	while (c != 0)
-	{
-		c = name[j++];
-		sum++;
-	}
-	for(i = 0 ; i < sum ; i++ )
-	{
-		printf("%c",name[i]);
-	}
+	
+	
+	(*f)(name);
+	
 
 }
 
