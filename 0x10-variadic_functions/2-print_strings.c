@@ -2,17 +2,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *print_numbers-point for print_numbers function
+ *print_strings-point for print_strings function
  *
  *@separator:separation character for each
  *
  *@n:number of intergers
  *
- *Description:function that prints numbers
+ *Description:function that prints strings
  *
  *Return: Always 0.
  */
-void print_numbers(const char *separator, const unsigned int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int i;
@@ -20,11 +20,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(ap, n);
 
+
 	for (i = 0 ; i < n ; i++)
 	{
 		sum = va_arg(ap, int);
 		printf("%i", sum);
-		if (i != n - 1 && separator[0] != '\0')
+		if (i != n - 1)
 		{
 			printf("%s", separator);
 		}
