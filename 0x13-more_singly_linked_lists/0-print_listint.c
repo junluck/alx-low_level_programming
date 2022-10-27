@@ -13,7 +13,7 @@
 typedef struct listint_s
 {
 	int n;
-	typedef struct listint_s *next;
+	struct listint_s *next;
 }listint_t;
 /** 
  *print_listint - Entry point for the print_listint function
