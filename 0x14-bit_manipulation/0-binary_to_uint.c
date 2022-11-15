@@ -9,35 +9,39 @@
  *
  *Return:unsigned int
  **/
-unsigned int binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char  *b)
 {
 	int i;
 	int k = 0;
 	int sum = 0;
-	int power;
-	int exponent;
-	unsigned int total;
 	char c = b[0];
+	int exponent = -2;
+	int result;
+	result = 1;
 
 	while(c != '\0')
 	{
 		c = b[k++];
 		sum++;
+		exponent++;
 	}
-
-	exponent = sum - 1;
 
 	for (i = 0 ; i < sum ; i++)
 	{
 		if (b[i] == '1')
-		{ 
-			while (exponent != 0)
+		{
+			int difference = sum - i;
+			if (difference > 0)
 			{
-				power = power * 2;
-				exponent--;
-			}
-		total = total + power;
+				while (exponent != 0)
+				{
+					result *=2;
+					exponent--;				
+				}
+			};
+
 		}
 	}
-	return (total);
+	return (result);
+	
 }
