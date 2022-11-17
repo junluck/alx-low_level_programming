@@ -16,11 +16,12 @@ unsigned int binary_to_uint(const char  *b)
 	int j = -1;
 	int sum = 0;
 	char c = b[0];
-	int exponent = -2;
+	int exponent;
 	int result;
 	int *ptr = malloc(sizeof(int));
 	unsigned int total = 0;
 	result = 1;
+	exponent = -2;
 	
 
 	while(c != '\0')
@@ -29,14 +30,14 @@ unsigned int binary_to_uint(const char  *b)
 		sum++;
 		exponent++;
 		j++;
-	}
+	};
 
 	for (i = 0 ; i < sum - 2; i++)
-	{
+	{	
 		if (b[i] == '1')
 		{
+
 			exponent -= i;
-			
 			while (exponent > 0)
 			{
 				result *=2;
@@ -47,7 +48,7 @@ unsigned int binary_to_uint(const char  *b)
 			total += *ptr;
 		}
 		
-	}
+	};
 
 	if (b[j - 1] == '1')
 	{
