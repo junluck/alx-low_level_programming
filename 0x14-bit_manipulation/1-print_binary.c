@@ -14,11 +14,17 @@ void print_binary(unsigned long int n)
 	int i;
 	int binaryAns;
 	int half;
-
-	for (i = n ; i > 0 ; i * 0.5)
+	
+	if (n == 0)
+	{
+		putchar(48);
+	}
+	i = n;
+	while (i != 0)
 	{
 		half = i * 0.5;
 		binaryAns = i - (half * 2);
+		i *= 0.5;
 		if (binaryAns == 1)
 		{
 			putchar(49);
