@@ -12,38 +12,34 @@
 unsigned int binary_to_uint(const char  *b)
 {
 	int i;
-	int k = 0;
 	int j = -1;
+	int k = 0;
+	int l = -2;
 	int sum = 0;
 	char c = b[0];
-	int exponent;
-	int result;
+	int result = 1;
 	int *ptr = malloc(sizeof(int));
 	unsigned int total = 0;
-	result = 1;
-	exponent = -2;
-	
 
 	while(c != '\0')
 	{
 		c = b[k++];
 		sum++;
-		exponent++;
 		j++;
+		l++;
 	};
 
 	for (i = 0 ; i < sum - 2; i++)
 	{	
 		if (b[i] == '1')
-		{
-
-			exponent -= i;
-			while (exponent > 0)
+		{	
+			l -= i;
+			while (l != 0)
 			{
-				result *=2;
-				exponent--;
-
+				result*=2;
+				l--;
 			}
+
 			*ptr = result;
 			total += *ptr;
 		}
