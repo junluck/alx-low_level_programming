@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 	int i;
 	int binaryAns;
 	int half;
-	
+
 	if (n == 0)
 	{
 		putchar(48);
@@ -31,7 +31,7 @@ void print_binary(unsigned long int n)
 		}
 		else if (binaryAns == 0)
 		{
-			
+
 			putchar(48);
 
 		}
