@@ -11,30 +11,24 @@
  **/
 void print_binary(unsigned long int n)
 {
-	int i;
-	int binaryAns;
-	int half;
+	int binaryAns = n;
+	char binaryAnd;
 
 	if (n == 0)
 	{
 		putchar(48);
 	}
-	i = n;
-	while (i != 0)
+	else if (n == 1)
 	{
-		half = i * 0.5;
-		binaryAns = i - (half * 2);
-		i *= 0.5;
-		if (binaryAns == 1)
+		putchar(49);
+	}
+	else
+	{
+		while (binaryAns != 0)
 		{
-			putchar(49);
-		}
-		else if (binaryAns == 0)
-		{
-
-			putchar(48);
-
+			binaryAnd = binaryAns & 1;
+			binaryAns >>= 1;
+			putchar(binaryAnd + 48);
 		}
 	}
-
 }
