@@ -35,7 +35,7 @@ void print_binary(unsigned long int n)
 	}
 	else
 	{
-		
+
 		for (j = i - 1 ; j >= 0 ; j--)
 		{
 			binaryAns = binaryAnsThree >> j;
@@ -43,6 +43,6 @@ void print_binary(unsigned long int n)
 			putchar(binaryAnd + 48);
 		}
 	}
-	
+
 
 }
