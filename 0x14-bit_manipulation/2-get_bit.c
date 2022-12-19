@@ -18,8 +18,8 @@ int get_bit(unsigned long int n, unsigned int index)
 
 	if (binaryTwo == 1 || binaryTwo == 0)
 	{
-		return(binaryTwo);
-	};	
-	
-	return(-1);
+		return (binaryTwo);
+	};
+
+	return (-1);
 }
